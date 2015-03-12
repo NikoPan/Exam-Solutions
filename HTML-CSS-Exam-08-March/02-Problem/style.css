@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    background-color: #51267e;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 68px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+span {
+    font-family: 'Oleo Script';
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*style*/
+
+ul li {
+    display: inline;
+}
+ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cover {
+    background-image: url("resources/orion-gas-and-star-bgr.jpg");
+    text-align: center;
+    color: white;
+    height: 240px;
+    border-bottom: 10px solid #34a6d1;
+}
+main{
+    padding: 20px;
+    background-color: #eae7ee;
+    margin-top: 20px;
+    border-top: 10px solid #875bb3;
+}
+#left-main{
+    vertical-align: top;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 30px;
+    width: 45%;
+}
+main div{
+    display: table-cell;
+}
+#aside section article{
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    width: 45%;
+    display: inline-block;
+}
+article div:first-child{
+    background-image: url("resources/02-pic1.jpg");
+    width: 200px;
+    height: 150px;
+}
+a p{
+    background-color: #38a5d5;
+    padding: 10px;
+    float: right;
+    color: #ffffff;
+}
+h5{
+    color:#38a5d5 ;
+    font-size: 1em;
+}
+article p{
+}
+footer{
+    margin: 20px;
+}

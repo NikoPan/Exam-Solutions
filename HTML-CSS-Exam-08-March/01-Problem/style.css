@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    font-size: 3em;
+    padding: 10px;
+    font-weight: normal;
+    color: #a96adc;
+    text-shadow: 1px 1px white;
+
+}
+
+.button {
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+ul li {
+    width: 175px;
+
+    display: inline-block;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.circle {
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #f4f4f4;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #9974e2;
+    display: block;
+    margin: 10px;
+}
+.circle p{
+    margin-top: 15px;
+}
+li>p{
+    text-align: center;
+    color: #a5a6a0;
+}
+.button p{
+    text-shadow: 1px 1px white;
+
+    background-color: #dddddd;
+    border-radius: 10px;
+    width: auto;
+    text-decoration: none;
+    color: #59656a;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+.circle:hover{
+    background-color: white;
+    color: #9974e2;
+}
+.button p:hover{
+    background-color: white;
+}

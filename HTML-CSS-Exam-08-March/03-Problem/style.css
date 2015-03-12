@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+header nav ul li {
+    height: 70px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+nav ul li:hover {
+    background-color: #59656a;
+}
+
+li a p {
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #afb5c5;
+    text-decoration: none;
+}
+
+
+li:nth-child(1) {
+    background-color: #3cbc97;
+}
+
+li:nth-child(1) a p {
+    color: white;
+
+}
+
+header {
+    background-color: #3a4553;
+}
+
+li p {
+    float: right;
+    padding-top: 25px;
+}
+
+main {
+    background-color: #eeeeee;
+}
+
+form {
+    padding: 10px;
+}
+
+form fieldset {
+    display: inline-block;
+    width: 22%;
+    border: none;
+    margin: 10px;
+}
+
+fieldset legend {
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+input {
+    width: 180px;
+    padding: 15px;
+    border: 1px solid #dadada;
+}
+
+fieldset p {
+    padding: 15px;
+    background-color: #3cbc97;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+fieldset p:hover {
+    background-color: #3a4553;
+}
+
+fieldset a {
+    text-decoration: none;
+
+}
